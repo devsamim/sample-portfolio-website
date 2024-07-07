@@ -44,7 +44,7 @@ color: #1E1E1E;
 .dark-2{
 color: #474747;
 }
-dark-3{
+.dark-3{
 color: #757575;
 }
 /* nav style */
@@ -138,4 +138,40 @@ main section{
 padding: 30px;
 box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
 border-radius: 5px;
+}
+/* resume section style */
+.resume{
+  justify-content: center;
+  margin-left: 50px;
+}
+.resume-container{
+  display: flex;
+  gap: 24px;
+  
+}
+.experience{
+  font-size: 25px;
+  font-weight: 600;
+margin-bottom: 20px; 
+}
+.experience-title{
+  font-size: 18px;
+  font-weight: 400;
+margin-bottom: 20px;
+}
+.experience-sub-title{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.experience-description{
+  color: #757575;
+  font-size: 15px;
+}
+.resume hr{
+margin: 20px 3px;
+}
+.rusume-btn{
+  text-align: center;
+  margin-top: 50px;
 }
